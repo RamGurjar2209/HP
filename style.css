@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.navbar1{
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+}
+
+
+.logo-container{
+    width:350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+
+.z-hp{
+    width: 40px;
+}
+
+.omen{
+    width: 100px;
+}
+
+.poly{
+    width: 60px;
+}
+
+.navbar2{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo-part{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-part img{
+    width: 140px;
+}
+
+.logo-part ul{
+    width: 260px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-part ul a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #767676;
+    font-weight: 500;
+}
+
+.logo-part ul a:hover{
+    border-bottom: 2px solid rgb(5, 5, 140);
+}
+
+.input-part{
+    width: 55%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input{
+    width: 450px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a5a3a3;
+}
+
+.search-input img{
+    width: 40px;
+}
+
+.search-input input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+    border: none;
+}
+
+.cart{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart img{
+    width: 30px;
+}
+
+.input-part button{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px 30px;
+}
+
+.input-part button:hover{
+    opacity: 0.7;
+}
+
+.responsive-nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.res-logo{
+    width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.res-logo img{
+    width: 150px;
+}
+
+.res-icon{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.res-search{
+    width: 60px;
+    position: relative;
+    left: 20px;
+}
+
+.res-cart{
+    width: 40px;
+}
+
+.res-menu{
+    width: 50px;
+}
+
+.res-icon button{
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img{
+    width: 65%;
+    height: 600px;
+    background-image: url('./VISID-IN-omen-gaming-laptop-desktop.jpg');
+    background-size: cover;
+    border-bottom:2px solid black ;
+}
+
+.bg-text{
+    width: 35%;
+    height: 600px;
+    background-color: #e6e6e6;
+    border-bottom:2px solid black ;
+}
+
+.omen2{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.omen-heading{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.omen-heading h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+    width: 410px;
+}
+
+.game-on{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-on h3{
+    font-size:40px ;
+    font-weight: 400;
+}
+
+.res-game{
+    display: none;
+}
+
+.cashback{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cashback p{
+    width:400px;
+    font-size: 20px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.btn-container{
+    width: 85%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learn{
+    font-size:18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 6px 20px;
+}
+
+
+.shop{
+    font-size:18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 6px 20px;
+}
+
+
+.enquire{
+    font-size:18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 6px 20px;
+}
+
+.hey-there{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 2px solid black;
+}
+
+.hey-there h1{
+    width: 92%;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.what-can{
+    width: 100%;
+    height: 550px;
+}
+
+.what-text{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-text h3{
+    font-size: 30px;
+    font-weight: 500;
+    width: 92%;
+}
+
+.three-img-container{
+    width: 100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.printer{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.printer-img{
+    width: 400px;
+    height: 330px;
+    background-image:url('./Mask-Group-278@2x.png');
+    background-size: cover;
+    background-color: white;
+    border-left:1px solid black ;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+
+.printer-img:hover{
+    transform:scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.printer-img2:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.printer-img3:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+
+.printer-img2{
+    width: 400px;
+    height: 330px;
+    background-image:url('./Mask-Group-279@2x.webp');
+    background-size: cover;
+    background-color: white;
+    border-left:1px solid black ;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.printer-img3{
+    width: 400px;
+    height: 330px;
+    background-image:url('./Mask-Group-277@2x.webp');
+    background-size: cover;
+    background-color: white;
+    border-left:1px solid black ;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.printer-heading{
+    width: 400px;
+    height: 70px;
+    background-color: #212237;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left:1px solid black ;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+
+.printer-heading h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.workforce{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.workforce-img{
+    width: 55%;
+    height: 450px;
+    background-image: url('./workforce-services.jpg');
+    background-size: cover;
+}
+
+.workforce-text{
+    width: 35%;
+    height: 450px;
+}
+
+.hp-workforce{
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nor-hp{
+    font-size: 47px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.res-hp{
+    display: none;
+}
+
+
+
+.hp-workforce p{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.hp-workforce button{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px 25px;
+}
+
+.hp-workforce button:hover{
+    opacity: 0.8;
+}
+
+.know-exactly{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    border-bottom:2px solid white ;
+}
+
+.know-text{
+    width: 75%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know-text h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.know-btn{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know-btn button{
+    font-size: 20px;
+    padding: 10px 35px;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+}
+
+.know-btn button:hover{
+    background-color: #d5d1d1;
+}
+
+.country{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country-logo{
+    width: 95%;
+    height: 50px;
+    background-color: black;
+    border-bottom:1px solid white ;
+}
+
+.country-logo a{
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.country-logo a span img{
+    width: 20px;
+}
+
+.footer1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid white ;
+}
+
+.footer-content a:hover{
+    border-bottom: 1px solid white;
+}
+
+.list-item1{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-item1 li{
+    list-style: none;
+}
+
+.list-item1 li a{
+    font-size:17px;
+    font-weight:500 ;
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-item2{
+    width: 260px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-item2 li{
+    list-style: none;
+}
+
+.list-item2 li a{
+    font-size:17px;
+    font-weight:500 ;
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-item3{
+    width: 230px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-item3 li{
+    list-style: none;
+}
+
+.list-item3 li a{
+    font-size:17px;
+    font-weight:500 ;
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-item4{
+    width: 230px;
+    height: 150px;  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-item4 li{
+    list-style: none;
+}
+
+.list-item4 li a{
+    font-size:17px;
+    font-weight:500 ;
+    text-decoration: none;
+    color: white;
+}
+
+
+.list-item5{
+    width: 230px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-item5 li{
+    list-style: none;
+}
+
+.list-item5 li a{
+    font-size:17px;
+    font-weight:500 ;
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-icon{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.facebook img{
+    width: 40px;
+}
+
+.insta{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.insta img{
+    width: 40px;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.twitter img{
+    width: 40px;
+}
+
+.footer2{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recall{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.recall p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+
+            /* Responsive */
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+
+    .navbar1{
+        display: none;
+    }
+
+    .navbar2{
+        display: none;
+    }
+
+    .responsive-nav{
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-section{
+        width: 100%;
+        height: 820px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }   
+
+    .bg-img{
+        width: 100%;
+        height: 400px;
+        border: none;
+    }
+
+    .bg-text{
+        width: 100%;
+        height: 420px;
+        border: none;
+    }
+
+    .omen-heading{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .omen-heading h1{
+        width: 720px;
+    }
+
+    .game-on{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .game-heading{
+        display: none;
+    }
+
+    .res-game{
+        display: block;
+        width: 720px;
+    }
+
+    .cashback{
+        width: 100%;
+    }  
+    
+    .cashback p{
+        width: 720px;
+    }
+
+    .btn-container{
+        width: 720px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .shop{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hey-there{
+        height: 100px;
+        width: 100%;
+    }
+
+    .hey-there h1{
+        width: 720px;
+
+    }
+
+    .what-text{
+        width: 100%;
+    }
+
+    .what-text h3{
+        width: 720px;
+    }
+
+    .three-img-container{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }   
+
+    .printer{
+        width: 240px;
+    }
+
+    .printer-img{
+        width: 240px;
+        height: 250px;
+    }
+
+    .printer-img2{
+        width: 240px;
+        height: 250px;
+    }
+
+    .printer-img3{
+        width: 240px;
+        height: 250px;
+    }
+
+    .printer-heading{
+        width: 240px;
+        height: 70px;
+    }
+
+    .printer-heading h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .workforce{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: start;
+    }
+
+    .workforce-img{
+        height: 300px;
+        width: 450px;
+    }
+
+    .nor-hp{
+        display: none;
+    }
+
+    .res-hp{
+        display: block;
+        font-size: 40px;
+        font-weight: 500;
+        border-bottom: 2px solid #767676;
+        padding-bottom: 15px;
+        line-height: 48px;
+    }
+
+    .hp-workforce p{
+        font-size: 20px;
+        padding-top: 10px;
+    }    
+
+    .learn-btn{
+        margin-top: 20px;
+    }
+
+    .know-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+    }
+
+    .know-text h2{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    .country{
+        border-bottom: 1px solid white;
+        height: 60px;
+    }
+
+    .country-logo{
+        border: none;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer1{
+        width: 100%;
+        height: 400px;
+        border: 1px solid white;
+    }
+
+    .footer-content{
+        border: none;
+    }
+
+    .list-item1 li a{
+        font-size: 12px;
+    }
+
+
+    .list-item2 li a{
+        font-size: 12px;
+    }
+
+    .list-item3 li a{
+        font-size: 12px;
+    }
+
+    .list-item4 li a{
+        font-size: 12px;
+    }
+
+    .list-item5{
+        display: none;
+    }
+
+    .footer2{
+        width: 100%;
+        height: 120px;
+    }
+
+    .recall p{
+        font-size: 15px;
+    }
+}
